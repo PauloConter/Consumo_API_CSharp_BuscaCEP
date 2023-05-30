@@ -8,7 +8,7 @@ using ConsultaCepAPI;
 namespace viaCepApi
 {
     public class ConsultaCEP
-    {
+    { 
         private static readonly HttpClient _httpClient = new();
 
         public static async Task<Endereco?> BuscarCEPAsync(string cep)
