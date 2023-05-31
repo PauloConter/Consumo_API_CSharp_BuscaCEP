@@ -21,7 +21,7 @@ namespace viaCepApi
                 {
                     System.Net.HttpStatusCode.OK =>
                     await response.Content.ReadFromJsonAsync<Endereco>(),
-                    System.Net.HttpStatusCode.NotFound => null,
+                    System.Net.HttpStatusCode.NotFound => null, 
                     _ => throw new HttpRequestException($"Erro ao buscar CEP: {response.StatusCode}")
                 };
             }
