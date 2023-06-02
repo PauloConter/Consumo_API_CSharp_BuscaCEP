@@ -4,7 +4,7 @@ using viaCepApi;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args) 
     {
         Console.Clear();
         Console.OutputEncoding = Encoding.UTF8;
