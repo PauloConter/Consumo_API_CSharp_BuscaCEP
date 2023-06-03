@@ -7,7 +7,7 @@ using ConsultaCepAPI;
 
 namespace viaCepApi
 {
-    public class ConsultaCEP
+    public class ConsultaCEP 
     { 
         private static readonly HttpClient _httpClient = new();
 
