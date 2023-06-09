@@ -17,7 +17,7 @@ namespace viaCepApi
             {
                 var response = await _httpClient.GetAsync($"https://viacep.com.br/ws/{cep}/json/");
 
-                return response.StatusCode switch
+                return response.StatusCode switch 
                 {
                     System.Net.HttpStatusCode.OK =>
                     await response.Content.ReadFromJsonAsync<Endereco>(),
