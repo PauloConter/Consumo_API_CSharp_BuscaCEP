@@ -11,7 +11,7 @@ namespace viaCepApi
     { 
         private static readonly HttpClient _httpClient = new();
 
-        public static async Task<Endereco?> BuscarCEPAsync(string cep)
+        public static async Task<Endereco?> BuscarCEPAsync(string cep) 
         {
             try
             {
