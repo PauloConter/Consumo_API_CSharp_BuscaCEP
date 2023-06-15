@@ -7,5 +7,5 @@ public record Endereco(
     string Complemento,
     string Bairro,
     string Localidade,
-    string UF
+    string UF 
 );
