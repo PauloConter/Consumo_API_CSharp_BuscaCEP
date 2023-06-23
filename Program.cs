@@ -13,7 +13,7 @@ class Program
         var endereco = ConsultaCEP.BuscarCEPAsync(cep).Result;
 
         Console.WriteLine(
-            endereco is null ? "CEP não encontrado" : $"""             
+            endereco is null ? "CEP não encontrado" : $"""     
                                 Logradouro: {endereco.Logradouro},
                                 Bairro: {endereco.Bairro},
                                 Cidade: {endereco.Localidade},
