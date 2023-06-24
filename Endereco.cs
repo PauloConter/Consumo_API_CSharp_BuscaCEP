@@ -1,7 +1,7 @@
 namespace ConsultaCepAPI;
  
 
-public record Endereco( 
+public record Endereco(
     string cep,
     string Logradouro,
     string Complemento,
