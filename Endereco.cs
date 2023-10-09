@@ -1,4 +1,4 @@
-namespace ConsultaCepAPI; 
+namespace ConsultaCepAPI;
 
 public record Endereco(
     string cep,
